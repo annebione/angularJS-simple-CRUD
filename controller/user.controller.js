@@ -27,12 +27,5 @@ function UserController($stateProvider, $location, UserService) {
     userControl.delete({ id: userId });
     vm.users = userControl.query();
   };
-
-
-  /*UserService.getUser(data).then(function(data) {
-      var result = data.data.result;
-      console.log(data);
-  }); */
-
 }
-angular.module('beecambioBo').controller('UserController', UserController);
+angular.module('yourapp').controller('UserController', UserController);
