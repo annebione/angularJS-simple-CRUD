@@ -1,5 +1,5 @@
 /**
- * Created by anneb_000 on 21/09/2015.
+ * Created by Anne Bione on 19/09/2015.
  */
 
 function UserService () {
@@ -24,26 +24,4 @@ function UserService () {
 };
 
 
- /* var service = {};
-
-  service.getUser = function(id) {
-    return $http.get(BaseService.urlBase + "/user/" + id);
-  };
-
-  service.getUsers = function (data) {
-    return $http.get(BaseService.urlBase + "/users/", {
-      params: data
-    });
-  };
-  service.setUsers = function (data) {
-    return $http.put(BaseService.urlBase + "/user/" + data._id, data);
-  };
-
-  service.deleteUser = function(data) {
-    return $http.delete(BaseService.urlBase + "/user/" + data._id, data);
-  }
-
-  return service;
-} */
-
-angular.module('beecambioBo').factory('UserService', UserService);
+angular.module('yourapp').factory('UserService', UserService);
