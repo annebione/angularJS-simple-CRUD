@@ -1,6 +1,8 @@
 # angularJS-simple-CRUD
 A simple AngularJS CRUD using $resource and following Todd Motto's style guide. You must install Angular's $resource before anything else.
 
+You can try : bower install angular-resource
+
 The official AngularJS documentation for ngResource is:
 https://docs.angularjs.org/api/ngResource/service/$resource
 
